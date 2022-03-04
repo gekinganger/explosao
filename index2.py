@@ -708,23 +708,24 @@ def login():
         print("login pop up found")
         setun = False
         setpw = False
-        while setun == False or (positions(usernametb) is not False):
+        while setun == False and (positions(usernametb) is not False):
             if clickButton(usernametb):
                 sleep(3,3)
                 username = loginData["username"]
                 pyautogui.typewrite(username, interval=0.1)   
                 sleep(3,3)  
                 setun = True
-        while setpw == False or (positions(passwordtb) is not False):
+        while setpw == False and (positions(passwordtb) is not False):
             if clickButton(passwordtb):
                 sleep(3,3)
                 password = loginData["password"]
                 pyautogui.typewrite(password,interval=0.1)
                 sleep(3,3)
                 setpw = True
-        if (setun == True and setpw == True) and clickButton(loginbt):
-           waitForImage(teasureHunt_icon_img, timeout=30) 
-           handleError()
+        if (setun == True and setpw == True):
+            if clickButton(loginbt):
+                waitForImage(teasureHunt_icon_img, timeout=30) 
+                handleError()
 
     if currentScreen() == "main":
         logger('Logged in', telegram=True, emoji='🎉')
