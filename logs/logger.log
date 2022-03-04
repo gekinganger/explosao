@@ -64956,3 +64956,30 @@
 2022-03-04 10:24:00 - Login failed, trying again
 2022-03-04 10:24:25 - Login failed, trying again
 2022-03-04 10:24:50 - Login failed, trying again
+2022-03-04 14:17:09 - Starting bot...
+2022-03-04 14:17:09 - Join us on BCBOT Telegram group: https://t.me/+WXjrE1Kdb1U1Mzg0
+2022-03-04 14:17:09 - Commands: 
+
+ /print 
+ /map 
+ /bcoin 
+ /invite 
+ /id 
+ /donation 
+ /pix 
+
+ /stop - Stop bot
+2022-03-04 14:17:09 - Multi Account BETA is available. Run: python index-ma.py and not index.py for tests.
+2022-03-04 14:17:16 - Connect wallet button detected, logging in!
+2022-03-04 14:19:00 - Login failed, trying again
+2022-03-04 14:19:04 - Connect wallet button detected, logging in!
+2022-03-04 14:20:45 - Error detected, trying to resolve
+2022-03-04 14:20:47 - Refreshing page
+2022-03-04 14:21:30 - Login failed, trying again
+2022-03-04 14:21:33 - Connect wallet button detected, logging in!
+2022-03-04 14:22:21 - Login failed, trying again
+2022-03-04 14:22:36 - Logged in
+2022-03-04 14:22:39 - Login failed, trying again
+2022-03-04 14:22:56 - Login failed, trying again
+2022-03-04 14:23:07 - Login failed, trying again
+2022-03-04 14:23:12 - Shutting down the bot
